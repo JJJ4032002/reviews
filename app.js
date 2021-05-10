@@ -40,7 +40,7 @@ window.addEventListener("DOMContentLoaded",()=>{
     prev.addEventListener("click",()=>{
         count--;
         if(count < 0){
-            count = 3;
+            count = 2;
         }
         change(count);
     })

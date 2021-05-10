@@ -1,6 +1,7 @@
 img {
-  background-size: cover;
+  object-fit: cover;
   border-radius: 50%;
+  background-position: center;
 }
 .div-1 {
   display: none;

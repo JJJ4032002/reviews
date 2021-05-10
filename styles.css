@@ -23,6 +23,7 @@ button:hover {
 h3 {
   font-family: monospace;
   font-size: 25px;
+  color: white;
 }
 
 p {
@@ -36,4 +37,16 @@ p {
   margin-left: 100px;
   margin-right: 100px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (max-width: 400px) {
+  .div-2 {
+    padding: 10px;
+    text-align: center;
+    margin-top: 10vh;
+    background: #89d6e5;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 }

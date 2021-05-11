@@ -1,7 +1,9 @@
-img {
-  object-fit: cover;
+#avatar {
+  background-image: url("https://images.pexels.com/photos/6311505/pexels-photo-6311505.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   border-radius: 50%;
-  background-position: center;
+  width: 150px;
+  height: 150px;
+  background-size:cover;
 }
 .div-1 {
   display: none;
